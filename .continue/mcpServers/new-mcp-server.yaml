@@ -1,0 +1,12 @@
+models: []
+customCommands: []
+contextProviders: []
+name: DesktopCommander MCP Server
+version: 0.0.1
+schema: v1
+mcpServers:
+  - name: New MCP server
+    command: node
+    args:
+      - C:\dev\DesktopCommanderMCP\dist\index.js
+    env: {}

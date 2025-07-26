@@ -1,0 +1,177 @@
+# StreamLine Landing Page Design System
+
+## **Color Palette**
+
+### Primary Colors
+
+- **Background**: `#0a0a0f` (Deep Space Navy)
+- **Foreground**: `#ffffff` (Pure White)
+- **Card Background**: `#1e1b2e` (Dark Purple-Gray)
+- **Muted Background**: `#151520` (Darker Gray)
+
+
+### Accent Colors
+
+- **Primary Purple**: `#8b5cf6` (Vibrant Purple)
+- **Cyan**: `#06b6d4` (Electric Cyan)
+- **Pink**: `#ec4899` (Hot Pink)
+- **Purple-400**: `#a855f7` (Light Purple for accents)
+
+
+### Text Colors
+
+- **Primary Text**: `#ffffff` (White)
+- **Secondary Text**: `#a1a1aa` (Light Gray)
+- **Muted Text**: `#6b7280` (Medium Gray)
+- **Subtle Text**: `#4b5563` (Dark Gray)
+
+
+### Gradient Combinations
+
+- **Purple-Cyan**: `linear-gradient(135deg, #8b5cf6 0%, #06b6d4 100%)`
+- **Purple-Pink**: `linear-gradient(135deg, #8b5cf6 0%, #ec4899 100%)`
+- **Text Gradient**: `linear-gradient(to right, #ffffff, #d1d5db)`
+
+
+## **Typography**
+
+### Font Family
+
+- **Primary**: System font stack (similar to Inter/SF Pro)
+- **Fallback**: `-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif`
+
+
+### Font Weights & Sizes
+
+- **Headings**:
+
+- H1: `text-3xl sm:text-5xl xl:text-6xl` (48px-96px) - Bold (700)
+- H2: `text-3xl md:text-4xl` (36px-48px) - Bold (700)
+- H3: `text-lg` (18px) - Semibold (600)
+
+
+
+- **Body Text**:
+
+- Large: `md:text-xl` (20px) - Regular (400)
+- Regular: `text-base` (16px) - Regular (400)
+- Small: `text-sm` (14px) - Medium (500)
+- Extra Small: `text-xs` (12px) - Regular (400)
+
+
+
+
+
+### Text Treatments
+
+- **Gradient Text**: Applied to main headings using `bg-clip-text`
+- **Letter Spacing**: `tracking-tighter` for headlines
+- **Line Height**: Relaxed spacing for readability
+
+
+## **Design Style**
+
+### Visual Aesthetic
+
+- **Style**: Modern Dark Theme with Cyberpunk influences
+- **Mood**: Professional, Futuristic, Premium
+- **Inspiration**: Developer tools, SaaS platforms, modern web apps
+
+
+### Design Principles
+
+- **Glassmorphism**: Semi-transparent cards with backdrop blur
+- **Minimalism**: Clean layouts with ample whitespace
+- **Depth**: Layered elements with subtle shadows and transparency
+- **Motion**: Subtle floating animations and smooth transitions
+
+
+## **UI Components**
+
+### Buttons
+
+- **Primary**: Purple-cyan gradient background, white text, rounded corners
+- **Secondary**: Transparent with white border, white text
+- **Hover States**: Opacity changes and subtle scale transforms
+
+
+### Cards
+
+- **Background**: `bg-card/50` (50% opacity)
+- **Border**: `border-white/10` (10% white opacity)
+- **Backdrop**: `backdrop-blur-sm` for glass effect
+- **Hover**: Increased opacity and subtle lift
+
+
+### Navigation
+
+- **Header**: Sticky, semi-transparent with backdrop blur
+- **Links**: White text with purple hover states
+- **Mobile**: Slide-in overlay with glass morphism
+
+
+## **Visual Effects**
+
+### Animations
+
+- **Floating Elements**: 6-second ease-in-out infinite loops
+- **Hover Transitions**: 300ms duration for smooth interactions
+- **Page Transitions**: Smooth color and opacity changes
+
+
+### Background Elements
+
+- **Floating Shapes**: Geometric shapes with gradient fills
+- **Opacity**: 10-20% for subtle presence
+- **Movement**: Gentle floating motion at different speeds
+
+
+### Gradients & Overlays
+
+- **Section Overlays**: Subtle gradient overlays for depth
+- **Button Gradients**: Vibrant purple-cyan combinations
+- **Text Gradients**: White to light gray for premium feel
+
+
+## **Responsive Behavior**
+
+### Breakpoints
+
+- **Mobile**: `< 768px` - Single column, stacked elements
+- **Tablet**: `768px - 1024px` - Two-column grids
+- **Desktop**: `> 1024px` - Multi-column layouts, full features
+
+
+### Mobile Adaptations
+
+- **Navigation**: Hamburger menu with slide-in overlay
+- **Typography**: Scaled-down font sizes
+- **Spacing**: Reduced padding and margins
+- **Cards**: Full-width on mobile, grid on larger screens
+
+
+## **Brand Elements**
+
+### Logo Treatment
+
+- **Icon**: Gradient-filled rounded square with "S" initial
+- **Typography**: Bold, clean sans-serif
+- **Colors**: Purple-cyan gradient for icon, white for text
+
+
+### Iconography
+
+- **Style**: Lucide React icons (outline style)
+- **Colors**: White, purple accents for interactive states
+- **Size**: Consistent 16px-24px for UI, larger for features
+
+
+### Visual Hierarchy
+
+- **Primary**: Large gradient headings
+- **Secondary**: White subheadings
+- **Tertiary**: Gray body text and descriptions
+- **Accents**: Purple highlights and interactive elements
+
+
+This design system creates a cohesive, modern, and professional appearance that conveys innovation and reliability while maintaining excellent usability across all devices.

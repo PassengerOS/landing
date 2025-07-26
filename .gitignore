@@ -46,3 +46,4 @@ next-env.d.ts
 .kiloconfig
 MCP-Servers/
 nppBackup/
+_ignore/

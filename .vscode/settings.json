@@ -1,0 +1,20 @@
+{
+  "mcpServers": {
+    "playwright": {
+      "command": "npx",
+      "args": [
+        "@playwright/mcp@latest"
+      ]
+    },
+    "notion": {
+      "command": "node",
+      "args": [
+        "notion-mcp/server.js"
+      ]
+    },
+    "context7": {
+      "url": "https://server.smithery.ai/@upstash/context7-mcp/mcp?api_key=c5548733-d0aa-4678-ad16-f6aebddf0654&profile=instant-parrotfish-Cev50P",
+      "disabled": false
+    }
+  }
+}
